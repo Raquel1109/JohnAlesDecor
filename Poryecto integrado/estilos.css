@@ -1,0 +1,26 @@
+.colorPrincipal{
+    background-color: #1C0345 ;
+}
+.btn-primary{
+    background-color: #F58E27 !important;
+    border-color: #F58E27 !important;
+}
+.btn-primary:hover{
+    background-color: #F58E27 !important;
+    border-color: #F58E27 !important;
+}
+.fondo{
+    background-image: url(./imagenes/fondo.webp);
+    background-position: top center;
+    background-size: cover;
+    padding: 25%;
+    background-attachment: fixed;
+
+}
+.fondo2 {
+    background-image: url(./imagenes/fondo2.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding: 25%;
+    background-attachment: fixed;
+}

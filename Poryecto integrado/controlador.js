@@ -18,5 +18,11 @@ boton.addEventListener("click",function(evento) {
         
     }
 
+    Swal.fire({
+  title: "Bienvenido!",
+  text: "Has sido registrado!",
+  icon: "success"
+});
+
 
 })
