@@ -40,3 +40,16 @@ color: white;
 .titulo{
     justify-content: flex-start;
 }
+.boton-blanco{
+    background-color: #1C0345;
+    color:white;
+    border: #1C0345;
+
+}
+.boton-naranja{
+    background-color: #F58E27;
+    color: white;
+    border: #F58E27;
+}
+   
+
