@@ -1,0 +1,76 @@
+.colorPrincipal{
+    background-color: #1C0345 ;
+}
+.btn-primary{
+    background-color: #F58E27 !important;
+    border-color: #F58E27 !important;
+}
+.btn-primary:hover{
+    background-color: #F58E27 !important;
+    border-color: #F58E27 !important;
+}
+.fondo{
+    background-image: url(./imagenes/fondo.webp);
+    background-position: top center;
+    background-size: cover;
+    padding: 25%;
+    background-attachment: fixed;
+
+}
+.fondo2 {
+    background-image: url(./imagenes/fondo2.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding: 25%;
+    background-attachment: fixed;
+}
+.logo{
+    width: 30%;
+    height: 30%;
+}
+
+.custom-navbar{
+    background-color: #1C0345;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link{
+color: white;
+}
+.titulo{
+    justify-content: flex-start;
+}
+.boton-blanco{
+    background-color: #1C0345;
+    color:white;
+    border: #1C0345;
+
+}
+.boton-naranja{
+    background-color: #F58E27;
+    color: white;
+    border: #F58E27;
+}
+
+
+
+.card-img-filter{
+    filter: brightness(0.5);
+}
+
+.card{
+    clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
+}
+    
+.card-effect:hover .card{
+clip-path: polygon(50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%);
+}
+.card-effect:hover .card-img-overlay{
+transition:scale(0.9)
+}
+
+
+   
+   
+   
+
