@@ -1,28 +1,25 @@
 let boton=document.getElementById("boton")
-boton.addEventListener("click",function(evento) {
+boton.addEventListener("click",function(evento){
     evento.preventDefault()
     
-
-    let cajaNombres=document.getElementById("cajanombres")
-    let cajaApellidos=document.getElementById("cajaapellidos")
-    let cajaFechaNacimiento=document.getElementById("cajafechanacimiento")
-    let cajaDireccion=document.getElementById("cajadireccion")
+    let cajaUsuario=document.getElementById("cajausuario")
+    let cajaCorreo=document.getElementById("cajacorreo")
+    let cajaCiudad=document.getElementById("cajaciudad")
     let cajaTelefono=document.getElementById("cajatelefono")
+    let cajaContraseña=document.getElementById("cajacontraseña")
+
     let datosDelFormulario={
-        nombres:cajaNombres.value,
-        apellidos:cajaApellidos.value,
-        fechanacimiento:cajaFechaNacimiento.value,
-        direccion:cajaDireccion.value,
+        usuario:cajaUsuario.value,
+        correo:cajaCorreo.value,
+        ciudad:cajaCiudad.value,
         telefono:cajaTelefono.value,
-        
-        
+        contraseña:cajaContraseña.value
     }
 
     Swal.fire({
-  title: "Bienvenido!",
-  text: "Has sido registrado!",
-  icon: "success"
-});
-
+        title: "Bienvenido!",
+        text: "Has sido registrado",
+        icon: "success"
+    });
 
 })

@@ -4,115 +4,262 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JohnAlexDecor</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./estilos.css">
-    
-
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg custom-navbar">
-  <div class="container-fluid">
-    <a class="navbar-brand logo " href="#">
-      <img src="./imagenes/logo-casa.png" alt="logo" width="150" height="150">
-      
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand logo" href="#">
+                    <img src="./imagenes/logo-casa.png" alt="logo" width="150" height="150">
+                </a>
+                <h1 class="titulo" style="color: #F58E27;">JohnAlexDecor</h1>
+            </div>
 
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      
-    </button>
-    <h1 class="titulo" style="color: #F58E27;">JohnAlexDecor</h1>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" style="color: white; "> Inicio</a>
-          
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Productos
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Base camas </a></li>
-            <li><a class="dropdown-item" href="#">Comedores</a></li>
-            <li><a class="dropdown-item" href="#">Espaldares</a></li>
-            <li><a class="dropdown-item" href="#">Tocadores </a></li>
-            <li><a class="dropdown-item" href="#">Solteron</a></li>
-            <li><a class="dropdown-item" href="#">Alcobas</a></li>
-            <li><a class="dropdown-item" href="#">Muebles para televisor</a></li>
-            <li><a class="dropdown-item" href="#">Escritorios</a></li>
-            <li><a class="dropdown-item" href="#">Colchones</a></li>
-            <li><hr class="dropdown-divider"></li>
-            
-          </ul>
-        </li>
-        <li class="nav-item">
-         <a class="nav-link active" aria-current="page" href="#" style="color: white; "> Inicio</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-        <button class="btn boton-naranja" type="submit" style="border: 0cm ; background-color: #F58E27; text-decoration-color: white;">Buscar</button>
-      </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: white;">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Base camas</a></li>
+                            <li><a class="dropdown-item" href="#">Comedores</a></li>
+                            <li><a class="dropdown-item" href="#">Espaldares</a></li>
+                            <li><a class="dropdown-item" href="#">Tocadores</a></li>
+                            <li><a class="dropdown-item" href="#">Solteron</a></li>
+                            <li><a class="dropdown-item" href="#">Alcobas</a></li>
+                            <li><a class="dropdown-item" href="#">Muebles para televisor</a></li>
+                            <li><a class="dropdown-item" href="#">Escritorios</a></li>
+                            <li><a class="dropdown-item" href="#">Colchones</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: white;">Contacto</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                    <button class="btn boton-naranja" type="submit"
+                        style="background-color: #F58E27; border: 0;">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARRUSEL DE IMAGENES -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/carrusel1.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/carrusel2.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/carrusel3.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-  </div>
-</nav>
 
-
-    <div class="fondo">
-
-    </div>
-
+    <!-- INTRO -->
     <div class="container">
         <div class="row bg-transparent">
             <div class="col-6">
-              <h3 style="color: #F58E27;">JohnAlexDecor</h3>
-              <p> JohnalexDecor: Transforma tu hogar. Camas, comedores y muebles de diseño para vivir tus sueños. ¡Estilo, calidad y confort te esperan!
-                <br>
-                <a class="btn boton-blanco" href="#"  type="submit">Buy now</a>
-                <br>
-                <br>
-                <br>
-                <br>
-                 <br>
-                <br>
-                <br>
-                <br>
+                <h3 style="color: #F58E27;">JohnAlexDecor</h3>
+                <p>
+                    JohnAlexDecor: Transforma tu hogar. Camas, comedores y muebles de diseño para vivir tus sueños.
+                    ¡Estilo, calidad y confort te esperan!
+                </p>
 
+                <a class="btn boton-blanco" href="#" type="submit">Buy now</a>
+
+                <br><br><br><br><br><br><br><br>
+
+                <!-- SECCIÓN SERVICIOS -->
                 <section class="container">
-                  <div class="row">
-                    <div class="col-12">
-                      <h2 class="text h6" style="color: #F58E27; text-align: center;">Servicios</h2>
-                      <h3 class="text" style="text-align: center;" >Conoce todos los servicios que ofrecemos en <span class="span " style="color: #F58E27;">JohnAlexDecor</span></h3>
-                      <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem odio architecto ut laboriosam aliquam praesentium numquam neque obcaecati. Quas, sunt magni. Tempore quia dolorum molestias magnam voluptas aperiam eum ipsa!</p>
+                    <div class="row">
+                        <div class="col-12 text-center servicios-header">
+                            <h2 class="h6" style="color: #F58E27;">Servicios</h2>
+                            <h3>Conoce todos los servicios que ofrecemos en
+                                <span style="color: #F58E27;">JohnAlexDecor</span>
+                            </h3>
+                            <p>JohnAlexDecor ofrece muebles de calidad, diseños modernos y asesoría personalizada para transformar tus espacios. Contamos con piezas exclusivas, fabricación a medida y atención profesional.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- CARD 1 -->
+                        <div class="col-12 card-effect">
+                            <div class="card">
+                                <img src="./imagenes/card1.jpg" alt="card" class="card-img card-img-filter">
+                                <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
+                                    <h4>Tocadores</h4>
+                                    <p>Estos tocadores elegantes ofrecen la combinación perfecta de espejo, almacenamiento y estilo. Son piezas centrales ideales para organizar tus cosméticos y joyas, creando un rincón de belleza personal y funcional en cualquier habitación. Sus cajones y superficies permiten tenerlo todo a mano y en orden.</p>
+                                    <a href="#" class="text-reset">Ver aquí</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CARD 2 -->
+                        <div class="col-12 card-effect">
+                            <div class="card">
+                                <img src="./imagenes/card2.jpg" alt="card" class="card-img card-img-filter">
+                                <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
+                                    <h4>Comedores</h4>
+                                    <p>Estos comedores son los escenarios ideales para reunir a la familia y amigos. Ofrecen mesas robustas y sillas cómodas que combinan a la perfección diseño y funcionalidad. Se convierten en el corazón del hogar para disfrutar de comidas, largas conversaciones y momentos inolvidables. Sus estilos variados se adaptan a cualquier decoración.</p>
+                                    <a href="#" class="text-reset">Ver aquí</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CARD 3 -->
+                        <div class="col-12 card-effect">
+                            <div class="card">
+                                <img src="./imagenes/card3.jpg" alt="card" class="card-img card-img-filter">
+                                <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
+                                    <h4>Base camas</h4>
+                                    <p>Estas base camas son la fundación esencial para un descanso reparador. Ofrecen un soporte firme y estable que prolonga la vida útil de los colchones. Con diseños variados, desde tapizados elegantes hasta estructuras minimalistas, permiten maximizar el espacio y complementar la decoración de cualquier dormitorio. Son duraderas y funcionales.</p>
+                                    <a href="#" class="text-reset">Ver aquí</a>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
-                    <article class="col4">
-                      <div class="card">
-                        <img src="./imagenes/card1.jpg" alt="card" class="card-img">
-                        <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-                          <h4>Tocadores</h4>
-                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum nisi adipisci blanditiis, quo harum debitis!</p>
-                          <a href="#" class="text-reset">read more</a>
-
-                        </div>
-                      </div>
-                    </article>
-                  </div>
                 </section>
+
+                <!-- SECCIÓN PRODUCTOS -->
+                <section class="container mt-5">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="h6" style="color: #F58E27;">Productos</h2>
+                            <h3>Nuestros mejores productos
+                                <span style="color: #F58E27;">en catálogo</span>
+                            </h3>
+                            <p>Descubre nuestra amplia colección de muebles y decoración para tu hogar.</p>
+                        </div>
+                    </div>
+
+                    <div class="row galeria-productos">
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card1.jpg" alt="Producto 1" class="img-fluid">
+                                <h5>Producto</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card2.jpg" alt="Producto 2" class="img-fluid">
+                                <h5>Producto 2</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card3.jpg" alt="Producto 3" class="img-fluid">
+                                <h5>Producto 3</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card1.jpg" alt="Producto 4" class="img-fluid">
+                                <h5>Producto 4</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card2.jpg" alt="Producto 5" class="img-fluid">
+                                <h5>Producto 5</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card3.jpg" alt="Producto 6" class="img-fluid">
+                                <h5>Producto 6</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card1.jpg" alt="Producto 7" class="img-fluid">
+                                <h5>Producto 7</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card2.jpg" alt="Producto 8" class="img-fluid">
+                                <h5>Producto 8</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card3.jpg" alt="Producto 9" class="img-fluid">
+                                <h5>Producto 9</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card1.jpg" alt="Producto 10" class="img-fluid">
+                                <h5>Producto 10</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card2.jpg" alt="Producto 11" class="img-fluid">
+                                <h5>Producto 11</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="producto-item">
+                                <img src="./imagenes/card3.jpg" alt="Producto 12" class="img-fluid">
+                                <h5>Producto 12</h5>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </div>
         </div>
     </div>
 
+    <div class="fondo2"></div>
 
-     <div class="fondo2">
-        
-     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
