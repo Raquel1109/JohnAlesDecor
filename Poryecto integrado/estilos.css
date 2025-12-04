@@ -62,13 +62,13 @@ color: white;
 
 /* CARRUSEL */
 .carousel {
-    max-width: 100%;
+    max-width: 200%;
     margin: 0 auto;
     margin-bottom: 0;
 }
 
 .carousel-inner img {
-    height: 500px;
+    height: 800px;
     object-fit: cover;
 }
 
